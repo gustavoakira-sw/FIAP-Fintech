@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f8f8f8;
+                color: #333;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            h1 {
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+
+            .back {
+                margin-top: 20px;
+            }
+
+            a {
+                color: #333;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Error</h1>
+            <p>An error occurred while processing your request.</p>
+            <p>Please try again later.</p>
+            <div class="back">
+                <a href="{{ url_for('index') }}">Back to Home</a>
+            </div>
+        </div>
+    </body>
+</html>
