@@ -18,8 +18,13 @@ svg {
 }
 
 h1 {
+    margin-bottom: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+}
+
+.home-h1 {
+    font-size: 20px;
 }
 
 form {
@@ -37,6 +42,11 @@ form {
     filter: drop-shadow(1px 5px 2px #000);
 }
 
+.btn-outline-dark {
+    padding: 2% 10% 2% 10%;
+    
+}
+
 .form-control {
     background-color: transparent;
     border: 2px solid grey;
@@ -47,8 +57,36 @@ a {
     color: #AE7D00;
 }
 
+a:hover {
+    color: #AE7D00;
+}
+
+a:active {
+    color: #896200;
+}
+
+.login-with-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    border-bottom: 1px solid #888;
+    filter: blur(1px);
+}
+
+.label {
+    font-size: 14px;
+    color: #777;
+    margin: 0 10px;
+}
+
 .social-login {
-    margin-top: 20px;
+    margin-top: 1%;
 }
 
 .facebook {

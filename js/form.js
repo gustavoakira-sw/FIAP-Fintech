@@ -7,11 +7,13 @@ submitBtn.addEventListener("click", getFormData)
 function getFormData(event) {
     event.preventDefault()
 
-    var emailValue = emailInput.value.trim()
-    var passwdValue = passwdInput.value.trim()
+    let emailValue = emailInput.value.trim()
+    let passwdValue = passwdInput.value.trim()
 
     console.log(emailValue)
     console.log(passwdValue)
+
     alert("Email: " + emailValue + "\nSenha: " + passwdValue)
-    window.location.href = "./pages/error.html"
+
+    window.location.href = "./pages/home.html"
 }
