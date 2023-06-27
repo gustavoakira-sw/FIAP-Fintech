@@ -64,7 +64,8 @@ form {
     filter: drop-shadow(1px 2px 2px #000);
     font-weight: 900;
     width: 90%;
-}  
+    max-height: fit-content;
+}
 
 .btn-outline-dark:hover {
     background-color: rgb(220, 220, 202);
@@ -72,7 +73,9 @@ form {
 }
 
 .btn-text {
-    margin-left: 7px;
+    margin-left: 8px;
+    font-family: 'Nunito' sans-serif;
+    font-weight: 800;
 }
 
 .nav {
@@ -80,6 +83,11 @@ form {
     left: 0;
     position: absolute;
     margin: 5%;
+    padding: 10px;
+
+    background-color: rgb(251, 251, 239);
+    border: 2px solid #bababa;
+    border-radius: 20px;
 }
 
 .menu {
@@ -121,7 +129,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
 .form-control {
@@ -176,4 +184,19 @@ a:active {
 
 .google {
     background-color: #4285F4;
+}
+
+@media screen and (orientation: landscape) {
+    .nav {
+        top: 0;
+        left: 0;
+        margin: 1%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        margin-top: 15%;
+    }
 }
