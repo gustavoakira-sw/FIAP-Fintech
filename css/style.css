@@ -12,7 +12,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 svg {
@@ -20,9 +19,9 @@ svg {
 }
 
 h1 {
-    margin-bottom: 5%;
+    margin-bottom: 20px;
     font-family: 'Nunito', sans-serif;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 .home-title {
@@ -126,6 +125,7 @@ form {
 }
 
 .container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -172,6 +172,7 @@ a:active {
 
 .social-login {
     margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .facebook {

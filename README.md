@@ -1,4 +1,4 @@
-# Cap 9 - Muito estilo sem sofrimento - Páginas do Fintech usando HTML, CSS
+# Cap 9 e Cap 12 - Páginas do Fintech (HTML, CSS) e upload no GitHub.
 
 ## Notas
 
@@ -33,7 +33,7 @@ O JavaScript foi utilizado para coletar o input do usuário e fazer a navegaçã
 * Protótipo original em .PDF na pasta `figma/`.
 * Página de sign-in no arquivo `index.html`.
 * Stylesheet em `css/style.css`.
-    * Nota: O Bootstrap não está na pasta `css/` pois é importado no projeto através das tags `<head>` dos arquivos HTML. 
+    * Nota: O Bootstrap não está na pasta `css/` pois é importado no projeto através das tags `<link>` na `<head>` dos arquivos HTML. 
 * JavaScript do formulário em `js/form.js`.
 * Arquivo `README.md`.
 
